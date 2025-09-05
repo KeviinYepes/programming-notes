@@ -1,10 +1,10 @@
 # How to create a virtual envroment
 1. **How to create:**
-   -Structure
+***Structure***
 ````bash
 virtualenv -p python[version] [name]
 ````
-  -Original
+***Original***
 ````bash
 virtualenv -p python3 env
 ````
