@@ -1,5 +1,6 @@
 # How to create a virtual envroment
-1. **How to create:** \n
+1. **How to create:**
+---
 ***Structure***
 ````bash
 virtualenv -p python[version] [name]
