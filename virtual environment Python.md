@@ -2,3 +2,4 @@
 1. In the terminal we put
 ---
 '''vtualenv -p python[version python] [name]'''
+`print("Hola mundo")`
