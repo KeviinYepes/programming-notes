@@ -9,3 +9,8 @@ virtualenv -p python[version] [name]
 ````bash
 virtualenv -p python3 env
 ````
+## How to active the enviroment:
+***Route and Command***
+````bash
+ \env\scripts\activate
+````
