@@ -1,5 +1,5 @@
 # How to create a virtual envroment
-1. **How to create:**
+## How to create:
 ---
 ***Structure***
 ````bash
