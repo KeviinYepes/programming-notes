@@ -1,2 +1,4 @@
-#Create an environment
-    test
+| Nombre   | Edad |
+|----------|------|
+| Kevine   | 19   |
+| Pikachu  | 25   |
