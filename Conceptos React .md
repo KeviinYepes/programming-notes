@@ -10,7 +10,7 @@ React is an open-source JavaScript library designed to build user interfaces.
 
 # Basic concepts of React
 
-## Componentes
+## Components
 A component is an independent and reusable part of the user interface.
 
 ###  Functional Component 
