@@ -41,10 +41,10 @@ En React, las props (abreviatura de "properties" o propiedades) son un mecanismo
 2. Inmutabilidad son los props de solo lectura; el componente hijo no puede cambiar los valores que recibe del padre.
 
 ## Estado
-setState() programa una actualización al objeto estado de un componente. Cuando el estado cambia, el componente responde volviendo a renderizar
+SetState() programa una actualización al objeto estado de un componente. Cuando el estado cambia, el componente responde volviendo a renderizar
 
 ## Hook
-Función especial que te permite trabajar con estados en componentes funcionales y otros aspectos de react.
+Son funciones especiales que permiten a los componentes funcionales acceder a características de React que antes solo estaban disponibles en los componentes de clase, como el estado (state) y el ciclo de vida (lifecycle), sin necesidad de escribir una clase
 
 ## Event Listener
 Función ejecutada cunado ocurre un evento específico.
