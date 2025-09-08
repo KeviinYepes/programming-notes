@@ -15,7 +15,7 @@ Es una parte de la interfaz de usuario, independiente y reutilizable.
 
 ### Componente funcional  
 
-Son funciones de JavaScript que retornan un elemento de React (JSX).  
+Son funciones de JavaScript que retornan un elemento de React JSX (JavaScript XML) .  
 *Ejemplo*  
 ````bash
 function Greeting(props) {
@@ -23,7 +23,7 @@ function Greeting(props) {
 }
 ````
 ### Componente de Clase
-Clase de ES6 (JavaScript Moderno) que retorna un elemento JSX.
+Clase de ES6 (JavaScript Moderno) que retorna un elemento JSX (JavaScript XML).
 *Ejemplo*
 ````bash
 class saludo extends React.Component {
