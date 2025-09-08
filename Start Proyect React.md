@@ -1,5 +1,5 @@
 ## How to start an app in react
-1. First Step
+Create the app
    ````bash
    npx create-react-app [Nombre]
    ````
