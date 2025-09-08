@@ -8,7 +8,7 @@ React is an open-source JavaScript library designed to build user interfaces.
 3. Build dynamic applications.  
 4. Good performance.  
 
-# Conceptos básicos de React
+# Basic concepts of React
 
 ## Componentes
 A component is an independent and reusable part of the user interface.
