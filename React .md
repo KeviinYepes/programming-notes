@@ -37,8 +37,8 @@ class saludo extends React.Component {
 En React, las props (abreviatura de "properties" o propiedades) son un mecanismo para pasar datos de un componente padre a un componente hijo, permitiendo la comunicación y la creación de componentes reutilizables.
 
 ### Características principales de las props:
-1. Comunicación unidireccional:Los datos fluyen siempre de un componente padre a sus componentes hijos, nunca al revés.
-2.Inmutabilidad:sLas props son de solo lectura; el componente hijo no puede cambiar los valores que recibe del padre.
+*Comunicación unidireccional:* Los datos fluyen siempre de un componente padre a sus componentes hijos, nunca al revés.
+Inmutabilidad:* Las props son de solo lectura; el componente hijo no puede cambiar los valores que recibe del padre.
 
 ## Estado
 
