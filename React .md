@@ -13,7 +13,7 @@ React es una biblioteca de JavaScript de código abierto diseñada para crear in
 ## Componentes
 Es una parte de la interfaz de usuario, independiente y reutilizable.
 
-*Componente funcional*  
+### Componente funcional  
 
 Son funciones de JavaScript que retornan un elemento de React (JSX).  
 *Ejemplo*  
@@ -22,7 +22,7 @@ function Greeting(props) {
   return <h1>¡Hola, {props.name}!</h1>;
 }
 ````
-*Componente de Clase*
+### Componente de Clase
 Clase de ES6 (JavaScript Moderno) que retorna un elemento JSX.
 *Ejemplo*
 ````bash
