@@ -1,24 +1,34 @@
-# What is React?
-React is a library from javascript open source desing to create a user interface.
+# ¿Qué es React?
+React es una biblioteca de JavaScript de código abierto diseñada para crear interfaces de usuario.
 
-# Advantage of React
+# Ventajas de React
 
-1. Easy to learn.
-2. reusable components.
-3. Crear dinamic applications.
-4. Good performance.
+1. Fácil de aprender.  
+2. Componentes reutilizables.  
+3. Crear aplicaciones dinámicas.  
+4. Buen rendimiento.  
 
-# Basic Concepts of react
+# Conceptos básicos de React
 
-## Components
-It's a part of user interface it's independent and reusable.
+## Componentes
+Es una parte de la interfaz de usuario, independiente y reutilizable.
 
-*functional Component*
+*Componente funcional*  
 
-function of Javascript are returns React element (JSX)
-*Example*
+Son funciones de JavaScript que retornan un elemento de React (JSX).  
+*Ejemplo*  
 ````bash
-function greeting(promps) {
-  return <h1>¡Hi, {promps.name}!</h1>;
+function Greeting(props) {
+  return <h1>¡Hola, {props.name}!</h1>;
+}
+````
+*Componente de Clase*
+Clase de ES6 (JavaScript Moderno) que retorna un elemento JSX.
+*Ejemplo*
+````bash
+class saludo extends React.Component {
+  render() {
+        return <h1>¡Hola, {this.props.nombre}!</h1>
+    }
 }
 ````
