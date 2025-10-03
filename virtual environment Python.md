@@ -34,3 +34,63 @@ Example:
 ````bash
 virtualenv -p python3 env
 ````
+
+### 2. Using venv (built-in module)
+Since Python 3.3+, the standard library includes venv, so you don’t need to install anything extra.
+General Structure:
+````bash
+  python[version] -m venv [env_name]
+````
+
+Examples:
+````bash
+  python3 -m venv env
+````
+
+or, for Windows: 
+````bash
+py -3 -m venv env
+````
+
+## ▶️ How to Activate the Environmen
+Activation depends on your operating system:
+
+### Windows
+````bash
+env\scripts\activate
+````
+
+Linux / macOS
+````bash
+source env/bin/activate
+````
+
+## ⏹️ How to Deactivate the Environment
+Run:
+````bash
+deactivate
+````
+
+## 📦 Managing Dependencies
+**Export Requirements**
+Generate a requirements.txt file with all installed dependencies:
+````bash
+pip freeze > requirements.txt
+````
+
+**Install from Requirements**
+Install dependencies from a requirements.txt file:
+````bash
+pip install -r requirements.txt
+````
+
+## 💡 Best Practices
+
+-Always create a virtual environment per project.
+-Store your requirements.txt in version control (e.g., Git).
+-Do not commit your env/ or venv/ folder. Instead, add it to .gitignore.
+-Use clear names for environments (e.g., venv, env, or .venv).
+
+
+
+
