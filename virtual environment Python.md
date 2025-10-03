@@ -86,10 +86,10 @@ pip install -r requirements.txt
 
 ## 💡 Best Practices
 
--Always create a virtual environment per project.
--Store your requirements.txt in version control (e.g., Git).
--Do not commit your env/ or venv/ folder. Instead, add it to .gitignore.
--Use clear names for environments (e.g., venv, env, or .venv).
+- Always create a virtual environment per project.
+- Store your requirements.txt in version control (e.g., Git).
+- Do not commit your env/ or venv/ folder. Instead, add it to .gitignore.
+- Use clear names for environments (e.g., venv, env, or .venv).
 
 
 
