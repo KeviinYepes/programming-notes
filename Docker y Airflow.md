@@ -40,6 +40,11 @@ Este comando debe ir dentro de la carpeta `ApacheAirflow`
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.8.1/docker-compose.yaml'
 ````
 ---
+### 🛠️Construir o Reconstruir una imagen en docker
+```bash
+   docker compose build --no cache [Nombre de Imagen en caso de reconstruir]
+````
+---
 ### 🐋Encender o apagar docker
 
 🔴 Apagar los servicios de docker
